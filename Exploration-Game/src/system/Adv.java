@@ -142,11 +142,11 @@ class Adv {
 		
 		else if(command.equals("look Rat")) {
 			if(this.firstRoom.getWindow().isDevil()) {
-				System.out.println("あのネズミは袋の中で息絶えている");
+				System.out.println("あのネズミは袋の中で息絶えている。");
 			}
 			else if(this.firstRoom.getBookStand().isHasRat()) {
 				System.out.println("生け捕りにしたネズミだ。");
-				System.out.println("袋に詰めてポケットに入れているが、暴れている");
+				System.out.println("袋に詰めてポケットに入れているが、暴れている。");
 			}
 		}
 		
